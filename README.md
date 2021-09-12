@@ -1,5 +1,7 @@
 # Tasks-Edgar-kollama
 ### Edgar Kollamaa
 #### 08.09.2021
-#### *-task1 -task2 -task3*
-#### To run files write in to terminal node `node task.js` ect.
+- task1.js
+- task2.js
+- task3.js
+#### To run files write in to terminal write `node task.js`.
