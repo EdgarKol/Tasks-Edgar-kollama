@@ -6,4 +6,6 @@
 #### - task3.js ####
 #### - task4.js ####
 #### - task5.js ####
+#### - task6.js ####
+#### - task7.js ####
 #### To run files write in to terminal write `node task.js`.
