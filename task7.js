@@ -1,17 +1,15 @@
 const makeARandomNumber = function() {
     return Math.floor((Math.random() * 100) + 1);
 }
-const isEven = function(Math, randoms) {
-
-    if (Math, randoms % 2 === 0) {
-
+let randoms = Array(5).fill(0).map(makeARandomNumber); // generates random numbers array
+const isEven = function(randoms) {
+    if (randoms % 2 === 0) {
         return true
     } else {
         return false
     }
 }
-let randoms = Array(5).fill(0).map(makeARandomNumber); // generates random numbers array
-let random = Array(5).fill(0).map(isEven)
+let random = randoms.map(isEven)
 Array.max = function(randoms) {
     return Math.max.apply(Math, randoms) // checks highest number in array
 }
