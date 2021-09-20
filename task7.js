@@ -16,8 +16,10 @@ Array.max = function(randoms) {
 Array.min = function(randoms) {
     return Math.min.apply(Math, randoms) // checks lowest number in array
 }
+const count = random.filter(Boolean).length;
 
 console.log(randoms)
 console.log(Math.max.apply(Math, randoms)) // logs out highest number in array
 console.log(Math.min.apply(Math, randoms)) // logs out lowest number in array
 console.log(random)
+console.log("Falues of true" + ": " + count)
