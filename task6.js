@@ -1,12 +1,12 @@
 function hei() {
-    let n = 10
+    let n
     let b = 'Hi!'
     let a = 'Hello'
     for (let i = 0; i < n; i++)
-        if (n > 10) {
+        if (n === undefined) {
             return b
-        } else if (n === undefined) {
-        return b
+        } else if (n > 10) {
+        console.log(b)
     } else {
         console.log(a)
     }
