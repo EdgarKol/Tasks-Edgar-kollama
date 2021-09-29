@@ -1,15 +1,19 @@
-function hei() {
-    let n
+function hei(n) {
     let b = 'Hi!'
     let a = 'Hello'
-    for (let i = 0; i < n; i++)
-        if (!n) {
-            return b
-
-        } else if (n > 10) {
+    if (!n) {
         console.log(b)
+    } else if (n > 10) {
+        for (let i = 0; i < n; i++) {
+            console.log(b)
+        }
     } else {
-        console.log(a)
+        for (let i = 0; i < n; i++) {
+            console.log(a)
+        }
     }
 }
-console.log(hei())
+
+
+
+hei()
